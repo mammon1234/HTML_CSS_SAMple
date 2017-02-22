@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+
+body {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,.5);
+  height: 60px;
+}
+
+.header img {
+  padding-top: 10px;
+  height: 36px;
+  width: 36px;
+}
+
+.logo {
+  margin: 0 30px 0;
+}
+
+ul.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.nav li {
+  	color: #fff;
+    display: inline;
+    font-size: 14px;
+    margin-right: 30px;
+    padding: 0 0 5px;
+}
+
+
+
+.nav li:hover {
+  border-bottom:1px solid #00ffbc; 
+  color: #00ffbc; 
+  cursor:pointer; 
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  background-color: transparent !important;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+}
+
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.supporting .row {
+  color: #fff;
+  text-align: center;
+}
+
+.supporting p {
+  font-size: 16px;
+}
+
+.supporting img {
+  width: 127px;
+}
+
+.download {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  
+}
+
+.btn-default {
+    background: rgba(0,255,188,0.5);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 10px 60px;
+    margin-bottom: 100px;
+}
+
+.btn-default:hover {
+    background:rgba(0,0,0,0.5);
+    border:none; 
+    color: #fff;
+}
